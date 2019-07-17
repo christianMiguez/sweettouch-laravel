@@ -1,0 +1,69 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background: whitesmoke url(/img/toldo.png) no-repeat center top;
+
+}
+
+ .navbar .navbar-brand {
+    width: 154px;
+    height: 35px;
+    background: url("/img/sweet2.png") no-repeat;
+    padding: 0;
+    margin: 0;
+    text-indent: -9999%;
+    margin-top: 8px;
+}
+.contact_ {
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    line-height: 39px;
+}
+.contact_ i {
+    position: relative;
+    top: 6px;
+}
+ .navbar.navbar-transparent .navbar-brand {
+    width: 232px !important;
+    height: 177px !important;
+    background: url("/img/sweettouchlogo.png") no-repeat !important;
+    padding: 0;
+    margin: 0;
+    text-indent: -9999%
+}
+.carousel {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 5px 13px;
+}
+.login-page .card {
+    margin-top: 200px;
+}
+.card-login .form {
+    min-height: 310px;
+}
+.card .card-title {
+    margin-top: 0;
+}
+@media (min-width: 992px) {
+
+    .section {
+        padding: 160px 0 40px;
+    }
+    .navbar-translate {
+        height: 50px
+    }
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black
+}
