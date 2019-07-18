@@ -44,6 +44,8 @@
                         </form></li>
                             @endforeach
 
+                    <p><strong>IMPORTE A PAGAR: </strong>$ {{auth()->user()->cart->total}}</p>
+
                     <form action="{{url('/order')}}" method="post">
                         @csrf
                                     <button class="btn btn-success">
